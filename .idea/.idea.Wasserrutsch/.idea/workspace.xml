@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8abd1f43-1e4c-45e4-957a-870a18137610" name="Changes" comment="Restructure">
+    <list default="true" id="8abd1f43-1e4c-45e4-957a-870a18137610" name="Changes" comment="Glass Shader 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wasserrutsch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wasserrutsch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders &amp; Volume/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders &amp; Volume/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Glass2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Glass2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Physic Materials/Floor.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Physic Materials/Floor.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Physic Materials/Player.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Physic Materials/Player.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders &amp; Volume/GlassGlass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders &amp; Volume/GlassGlass.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scene/TEST.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/TEST.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +25,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Teilnehmer2020/Documents/CSharpScripts/Wasserrutsch/Assets/Resources/Shaders &amp; Volume/Global Volume Profile.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Teilnehmer2020/Documents/CSharpScripts/Wasserrutsch/Assets/Scene/TEST.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.6/Editor/Drawing/PreviewManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Teilnehmer2020/Documents/CSharpScripts/Wasserrutsch/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Teilnehmer2020/Documents/CSharpScripts/Wasserrutsch/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Teilnehmer2020/Documents/CSharpScripts/Wasserrutsch/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="30qa6oph" />
@@ -83,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655283425096</updated>
       <workItem from="1655283427910" duration="73000" />
-      <workItem from="1655287502470" duration="3888000" />
+      <workItem from="1655287502470" duration="6874000" />
     </task>
     <task id="LOCAL-00001" summary="Restructure">
       <created>1655292542446</created>
@@ -92,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655292542446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Glass Shader 2.0">
+      <created>1655296333106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655296333106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Restructure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructure" />
+    <MESSAGE value="Glass Shader 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Glass Shader 2.0" />
   </component>
 </project>
