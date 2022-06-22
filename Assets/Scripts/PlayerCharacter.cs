@@ -13,21 +13,18 @@ public class PlayerCharacter : MonoBehaviour {
 
     private Vector3 cameraRotation;
     private Vector3 moveDirection;
-    private float   sqrMaxVelocity;
 
 
     private void Awake() {
         //Cursor.lockState = CursorLockMode.Locked;
         cameraRotation = cameraTransform.localEulerAngles;
-        sqrMaxVelocity = maxMovementVelocity * maxMovementVelocity;
     }
 
     private void FixedUpdate() {
         var velocity              = playerRigidbody.velocity;
-        var velocity_without_down = new Vector3(velocity.x, 0, velocity.z);
-        if(velocity_without_down.magnitude < maxMovementVelocity)
-            playerRigidbody.AddRelativeForce(groundChecker.isOnGround ? moveDirection : moveDirection * airMovementMultiplier, ForceMode.Impulse);
-            //playerRigidbody.velocity = Vector3.ClampMagnitude(velocity_without_down, maxMovementVelocity) + velocity_down;
+        var end_magnitude = Mathf.Clamp(maxMovementVelocity - velocity.magnitude, 0, float.MaxValue);
+
+        playerRigidbody.AddRelativeForce(Vector3.ClampMagnitude(moveDirection, end_magnitude), ForceMode.Impulse);
         
     }
 
