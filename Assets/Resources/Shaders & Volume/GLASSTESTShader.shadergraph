@@ -1,5 +1,5 @@
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.GraphData",
     "m_ObjectId": "bf0fcf13c8f14aea98e2feb81ab45fb4",
     "m_Properties": [
@@ -17,6 +17,12 @@
         }
     ],
     "m_Keywords": [],
+    "m_Dropdowns": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "5612389ed48d4e04abd0dbeffb046176"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "a52527d2c00d40fc938e993fb1fc319d"
@@ -188,10 +194,11 @@
         "serializedMesh": {
             "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
             "m_Guid": ""
-        }
+        },
+        "preventRotation": false
     },
     "m_Path": "Shader Graphs",
-    "m_ConcretePrecision": 0,
+    "m_GraphPrecision": 0,
     "m_PreviewMode": 2,
     "m_OutputNode": {
         "m_Id": ""
@@ -269,17 +276,23 @@
 }
 
 {
-    "m_SGVersion": 0,
+    "m_SGVersion": 1,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
     "m_ObjectId": "11ad3003b6c4429c9733bfffda43c106",
     "m_ActiveSubTarget": {
         "m_Id": "be8aeba7e6dc439f8906f5c4418be731"
     },
+    "m_AllowMaterialOverride": false,
     "m_SurfaceType": 1,
+    "m_ZTestMode": 4,
+    "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_TwoSided": false,
+    "m_RenderFace": 2,
     "m_AlphaClip": false,
-    "m_CustomEditorGUI": ""
+    "m_CastShadows": true,
+    "m_ReceiveShadows": true,
+    "m_CustomEditorGUI": "",
+    "m_SupportVFX": false
 }
 
 {
@@ -505,9 +518,13 @@
         "m_GuidSerialized": "13d5e259-2959-48a3-9c2b-94c03bc71bb0"
     },
     "m_Name": "Color",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_4b85698114e942518ca04767894b4952",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -518,7 +535,29 @@
         "b": 0.0,
         "a": 0.0
     },
+    "isMainColor": false,
     "m_ColorMode": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "5612389ed48d4e04abd0dbeffb046176",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "4b85698114e942518ca04767894b4952"
+        },
+        {
+            "m_Id": "ab06da26d9f5483f83eb86a9700adedc"
+        },
+        {
+            "m_Id": "a6965d7917a742c39c2eed45cdbe813b"
+        },
+        {
+            "m_Id": "bdacda5cc3ba42e38fad9d7e1f1add2b"
+        }
+    ]
 }
 
 {
@@ -879,9 +918,13 @@
         "m_GuidSerialized": "4c91a9d3-7ea3-4879-b5f0-5f11abc8fbc5"
     },
     "m_Name": "Smoothness",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_a6965d7917a742c39c2eed45cdbe813b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -926,9 +969,13 @@
         "m_GuidSerialized": "843066a7-88dc-4c8d-b7f7-b3a42f0079ee"
     },
     "m_Name": "Edge",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_ab06da26d9f5483f83eb86a9700adedc",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -964,9 +1011,13 @@
         "m_GuidSerialized": "9b5234e0-2bff-44d6-a3eb-f8d0d9e8d647"
     },
     "m_Name": "Metal",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_bdacda5cc3ba42e38fad9d7e1f1add2b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
