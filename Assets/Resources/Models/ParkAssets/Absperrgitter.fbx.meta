@@ -3,7 +3,12 @@ guid: 6321f841b6d53c74782767189849ff28
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zaun
+    second: {fileID: 2100000, guid: a501a90b5518df409864e0e364f9b8ae, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

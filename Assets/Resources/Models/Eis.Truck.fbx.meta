@@ -3,7 +3,62 @@ guid: 6199bab73ca40674988c1e164c27de5c
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 8EE5EE
+    second: {fileID: 2100000, guid: 562903f8431702b40854ca2065892097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FFD39B
+    second: {fileID: 2100000, guid: 16c5b2e05c9a1ca46a8186216ecf82e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 27dc835aaf353334cace3d11d56a4c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 27dc835aaf353334cace3d11d56a4c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome.akzent
+    second: {fileID: 2100000, guid: 31ba6e0d277984349bd5c1a2371d0918, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 8660af9a5d6456d44970080f6d7ac395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headlight.back
+    second: {fileID: 2100000, guid: 27dc835aaf353334cace3d11d56a4c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: indicator
+    second: {fileID: 2100000, guid: a0892346e51ee06408bca96cda63f47e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kirsche
+    second: {fileID: 2100000, guid: 27dc835aaf353334cace3d11d56a4c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: licht
+    second: {fileID: 2100000, guid: e0c7eca0f82d40e42a5597da923d16e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheels.002
+    second: {fileID: 2100000, guid: faf423c98a8f77c49850dc19af9ceb94, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

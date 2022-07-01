@@ -3,7 +3,17 @@ guid: 5534559fef99f834ba5b7336e288548f
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AbsperrStange
+    second: {fileID: 2100000, guid: bd22c160eff1f2de3a2a99faf8f0116d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schwarz
+    second: {fileID: 2100000, guid: 8f846a77ad71889bba1dfbd63c790aa1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

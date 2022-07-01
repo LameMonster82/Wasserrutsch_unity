@@ -6,7 +6,27 @@ ModelImporter:
   - first:
       74: -2837143619550146823
     second: Booster_Test|Cylinder.395Action
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutsche
+    second: {fileID: 2100000, guid: c59a5d90b2691f64d97d9a1ee32c0333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutsche_Glas
+    second: {fileID: 2100000, guid: 8660af9a5d6456d44970080f6d7ac395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutsche_Innen
+    second: {fileID: 2100000, guid: 2d2f5351f340e374493a89d3243b7913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rutsche_Licht
+    second: {fileID: 2100000, guid: e0c7eca0f82d40e42a5597da923d16e2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
