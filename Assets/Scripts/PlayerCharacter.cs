@@ -5,14 +5,17 @@ public class PlayerCharacter : MonoBehaviour {
     [SerializeField] private float     movementSpeed;
     [SerializeField] private float     cameraSpeed;
     [SerializeField] private float     jumpForce;
+    [SerializeField] private float     boostForce;
+    [SerializeField] private float     boostTimeout;
     [SerializeField] private float     airMovementMultiplier;
-    [SerializeField] private float   maxMovementVelocity;
+    [SerializeField] private float     maxMovementVelocity;
     [SerializeField] private Rigidbody playerRigidbody;
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private OnGround  groundChecker;
 
     private Vector3 cameraRotation;
     private Vector3 moveDirection;
+    float boostTimeKeeper;
 
 
     private void Awake() {
@@ -30,6 +33,10 @@ public class PlayerCharacter : MonoBehaviour {
 
     private void LateUpdate() {
         cameraTransform.localEulerAngles = cameraRotation;
+        if (boostTimeKeeper > 0)
+        {
+            boostTimeKeeper -= Time.deltaTime;
+        }
     }
 
     public void OnMouseAim(InputAction.CallbackContext context) {
@@ -69,5 +76,14 @@ public class PlayerCharacter : MonoBehaviour {
         //print("o");
         if (Cursor.lockState == CursorLockMode.None)
             Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void OnPlayerBoost(InputAction.CallbackContext context)
+    {
+        if (boostTimeKeeper <= 0)
+        {
+            playerRigidbody.AddRelativeForce(Vector3.forward * boostForce, ForceMode.Acceleration);
+            boostTimeKeeper = boostTimeout;
+        }
     }
 }
