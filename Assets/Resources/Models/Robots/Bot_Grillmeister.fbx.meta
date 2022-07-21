@@ -21,7 +21,12 @@ ModelImporter:
   - first:
       74: 186799858932200777
     second: Armature|05-Idle-Grillmeister
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PfannewenderMetal
+    second: {fileID: 2100000, guid: 789b5e8c32e929140b16d71597b7e549, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -4,8 +4,8 @@ public class WheelTurnAnimationScript : MonoBehaviour
 {
     [SerializeField] private float turnSpeed = 1F;
 
-    private void FixedUpdate()
+    private void Update()
     {
-        transform.Rotate(0F, turnSpeed, 0F);
+        transform.Rotate(0F, turnSpeed * Time.deltaTime, 0F);
     }
 }
